@@ -2,7 +2,7 @@
 
 For this repository, I've created html templates and styling files in order to built a responsive portfolio , which can help to easy explorate profiles from differents devices.
 
-![home_page](https://github.com/Taher-web-dev/Portfolio-setup-and-mobile-version-skeleton/blob/work_about_myself/statics/images/screenshot_home_page.png)
+![Live Demo Link](https://github.com/naji-97/Portfolio-/assest/img/Screenshot 2022-12-02 111444.png/)
 
 ## Built With 🔨
 
@@ -12,7 +12,7 @@ For this repository, I've created html templates and styling files in order to b
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/naji-97/Portfolio-/blob/mobile-portfolio/assest/img/screenshot_home_page%20copy.png/)
+[Live Demo Link](https://github.com/naji-97/Portfolio-/assest/img/Screenshot 2022-12-02 111444.png/)
 
 ### Install
 
@@ -21,7 +21,7 @@ To get a local copy up and running follow these simple example steps.
 - Open terminal
 - Clone this project by the command:
 
-git clone git@github.com:Taher-web-dev/Portfolio-setup-and-mobile-version-skeleton.git
+git clone https://github.com/naji-97/Portfolio-/
 
 - Then go to the main folder using the next command:
 
@@ -42,10 +42,10 @@ cd Portfolio-setup-and-mobile-version-skeleton.git
 
 ## Authors
 
-👤 **Taher Haggui**
+👤 **Naji@97**
 
-- GitHub: [@TaherHaggui](https://github.com/Naji-97)
-- LinkedIn: [@TaherHaggui](https://www.linkedin.com/in/taher-haggui-66b5a6198/)
+- GitHub: [@Naji-97](https://github.com/Naji-97)
+- LinkedIn: [@Naji-Ali](https://www.linkedin.com/in/naji-ali-55b5421b3//)
 
 ## 🤝 Contributing
 
