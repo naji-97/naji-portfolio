@@ -1,4 +1,4 @@
-# Portfolio: setup and mobile version skeleton
+# Portfolio: setup and mobile version 
 
 For this repository, I've created html templates and styling files in order to built a responsive portfolio , which can help to easy explorate profiles from differents devices.
 
