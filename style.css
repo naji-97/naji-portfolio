@@ -11,6 +11,10 @@ body {
   background-color: #fff;
   color: #000;
   font-family: "Poppins", sans-serif;
+  width: 400px;
+  /* padding-left: 120px;
+  padding-right: 120px; */
+  margin: auto;
 }
 
 a {
@@ -22,8 +26,13 @@ a {
 ul {
   list-style: none;
 }
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-@media (max-width: 375px) {
+/* @media (max-width: 395px) { */
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -50,7 +59,7 @@ ul {
     margin-top: 100px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 0;
+    margin-bottom: 20;
   }
 
   .main-section h1 {
@@ -59,6 +68,10 @@ ul {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
+    color: #172B4D;
+  }
+  .main-section p{
+    color: #172B4D;
   }
 
   .main-section h5 {
@@ -81,5 +94,159 @@ ul {
 
   .links li {
     padding: 0 20px;
+  }
+
+  /* My project Section */
+
+  .projects {
+    margin: 30px 10px;
+    background-color: #e5e5e5;
+    padding: 20px 0;
+  }
+  .project {
+    margin: 30px 20px;
+    background-color: #fff;
+    padding: 20px 10px;
+    border-radius: 10px;
+  }
+
+  .project h2 {
+    padding: 20px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .project ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .project ul:first-child {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    list-style: circle;
+    list-style-type: circle;
+  }
+  .project ul li {
+    color: #7a869a;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .project ul li span {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    padding: auto;
+    margin-right: 10px;
+  }
+  .project .decription {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 20px 0;
+    color: #344563;
+  }
+
+  .project .language {
+    padding: 20px 10px;
+  }
+  .project .language li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    align-items: center;
+    padding: 4px 12px;
+    width: 53px;
+    height: 24px;
+    background: #ebebff;
+    border-radius: 8px;
+  }
+
+  .project .see-project {
+    margin: 20px 0;
+  }
+
+  .see-project a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    padding: 10px;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    background: #ffffff;
+    border: 1px solid #396df2;
+    border-radius: 16px;
+  }
+
+  .about {
+    /* margin: 30px 10px; */
+    background-color: #e5e5e5;
+    padding: 20px 10px;
+  }
+  .content {
+    margin: 30px 10px;
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 0px 30px 0px 0;
+  }
+  .content .see-resume {
+    margin: 20px 0;
+  }
+  .content .see-resume a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    padding: 10px;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    background: #ffffff;
+    border: 1px solid #396df2;
+    border-radius: 16px;
+  }
+
+  .languages .flex {
+    margin: 20px 0;
+    /* padding: 20px 5px; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+   }
+   div.border-bootom{
+    border-bottom: 1px solid #DFE1E6;
+    padding-bottom: 20px;
+   }
+
+  .languages ul.mycompetence {
+    flex-direction: column;
+    align-items: flex-start;
+    /* border-bottom: 1px solid #000; */
+  }
+  .mycompetence li {
+    padding: 10px 20px;
+    width: 250px;
+    /* height: 66.72px; */
+    background: #f7f7f9;
+    border-radius: 8px;
+  }
+  .mycompetence li img {
+    margin-right: 10px;
   }
 }
