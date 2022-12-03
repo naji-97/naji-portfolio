@@ -15,6 +15,7 @@ body {
 
   /* padding-left: 120px;
   padding-right: 120px; */
+
   margin: auto;
 }
 
@@ -35,6 +36,7 @@ ul {
 }
 
 /* @media (max-width: 395px) { */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -76,6 +78,7 @@ ul {
 
 .main-section p {
   color: #172b4d;
+
 }
 
 .main-section h5 {
@@ -266,4 +269,5 @@ div.border-bootom {
 
 .mycompetence li img {
   margin-right: 10px;
+
 }
