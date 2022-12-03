@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,600&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  width: 400px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #6070ff;
+  margin: 10px;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 12px;
+  color: #6070ff;
+}
+
+.main-section {
+  background-image: url(./assest/img/header-shapes\ mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+.main-section h1 {
+  margin: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.main-section p {
+  color: #344563;
+}
+
+.main-section h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  align-self: flex-start;
+  margin: 20px 0;
+}
+
+ul.links {
+  margin-top: 20px;
+
+  /* padding-right: 10px; */
+  display: flex;
+
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.links li {
+  padding: 0 20px;
+}
