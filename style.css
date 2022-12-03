@@ -12,10 +12,6 @@ body {
   color: #000;
   font-family: "Poppins", sans-serif;
   width: 400px;
-
-  /* padding-left: 120px;
-  padding-right: 120px; */
-
   margin: auto;
 }
 
@@ -34,8 +30,6 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
-
-/* @media (max-width: 395px) { */
 
 .navbar {
   display: flex;
@@ -108,13 +102,19 @@ ul.links {
   margin: 30px 10px;
   background-color: #e5e5e5;
   padding: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
 
 .project {
   margin: 30px 20px;
   background-color: #fff;
-  padding: 20px 10px;
+  padding: 20px 15px;
   border-radius: 10px;
+  display: grid;
+  grid-template-columns: 80%;
+  grid-template-rows: 1fr;
 }
 
 .project h2 {
@@ -123,12 +123,19 @@ ul.links {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+  color: #172b4d;
 }
 
-.project ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.project .toni {
+  justify-content: flex-start;
+}
+
+button {
+  border: none;
+}
+
+.project .toni h5 {
+  color: #344563;
 }
 
 .project ul:first-child {
@@ -142,9 +149,22 @@ ul.links {
 
 .mycompetence li {
   padding: 10px 20px;
-  width: 250px;
   background: #f7f7f9;
   border-radius: 8px;
+  justify-content: flex-start;
+  width: 303px;
+}
+
+.languages li {
+  margin: 20px 0;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;
 }
 
 .project ul li {
@@ -163,7 +183,7 @@ ul.links {
   display: inline-block;
   align-items: center;
   padding: auto;
-  margin-right: 10px;
+  margin: 0 10px;
 }
 
 .project .decription {
@@ -176,7 +196,7 @@ ul.links {
 }
 
 .project .language {
-  padding: 20px 10px;
+  justify-content: flex-start;
 }
 
 .project .language li {
@@ -188,14 +208,16 @@ ul.links {
   color: #6070ff;
   align-items: center;
   padding: 4px 12px;
-  width: 53px;
+  margin-right: 10px;
+  width: auto;
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
 }
 
 .project .see-project {
-  margin: 20px 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .see-project a {
@@ -211,10 +233,32 @@ ul.links {
   border-radius: 16px;
 }
 
+.see-project a:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.see-project a:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.see-project a:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
+}
+
 .about {
-  /* margin: 30px 10px; */
   background-color: #e5e5e5;
   padding: 20px 10px;
+}
+
+.about h2 {
+  color: #172b4d;
+}
+
+.about p {
+  color: #172b4d;
 }
 
 .content {
@@ -241,29 +285,14 @@ ul.links {
   border-radius: 16px;
 }
 
-.languages .flex {
-  margin: 20px 0;
-
-  /* padding: 20px 5px; */
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #000;
-}
-
 div.border-bootom {
   border-bottom: 1px solid #dfe1e6;
-  padding-bottom: 20px;
+  padding: 20px 40px;
 }
 
 .languages ul.mycompetence {
   flex-direction: column;
   align-items: flex-start;
-
-  /* border-bottom: 1px solid #000; */
 }
 
 .mycompetence li img {
