@@ -2,7 +2,7 @@
 
 For this repository, I've created html templates and styling files in order to built a responsive portfolio , which can help to easy explorate profiles from differents devices.
 
-![Live Demo Link](https://github.com/naji-97/Portfolio-/assest/img/Screenshot 2022-12-02 111444.png/)
+![Live Demo Link](<https://github.com/naji-97/Portfolio-/assest/img/Screenshot> 2022-12-02 111444.png/)
 
 ## Built With 🔨
 
@@ -12,7 +12,7 @@ For this repository, I've created html templates and styling files in order to b
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/naji-97/Portfolio-/assest/img/Screenshot 2022-12-02 111444.png/)
+[Live Demo Link](<https://github.com/naji-97/Portfolio-/assest/img/Screenshot> 2022-12-02 111444.png/)
 
 ### Install
 
@@ -21,7 +21,7 @@ To get a local copy up and running follow these simple example steps.
 - Open terminal
 - Clone this project by the command:
 
-git clone https://github.com/naji-97/Portfolio-/
+git clone <https://github.com/naji-97/Portfolio-/>
 
 - Then go to the main folder using the next command:
 
@@ -62,3 +62,11 @@ Give a ⭐️ if you like this project!
 - Microverse program ⚡
 - My standup team 🏹
 - My family's support 🙌
+
+<!-- LICENSE -->
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
