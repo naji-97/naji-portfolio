@@ -51,17 +51,18 @@ ul {
   text-align: center;
   margin-top: 10px;
   margin-left: 12px;
+  color: #6070ff;
 }
 
 .main-section {
   background-image: url(./assest/img/header-shapes\ mobile.jpg);
-  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   margin-top: 100px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .main-section h1 {
