@@ -31,6 +31,14 @@ ul {
   align-items: center;
 }
 
+.float {
+  float: left;
+}
+
+.float li {
+  display: inline-block;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -292,6 +300,7 @@ button {
   background: #fff;
   border: 1px solid #396df2;
   border-radius: 16px;
+  justify-content: center;
 }
 
 div.border-bootom {
@@ -306,4 +315,30 @@ div.border-bootom {
 
 .mycompetence li img {
   margin-right: 10px;
+}
+
+/* Contact me section */
+
+.contact-me h2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.contact-me p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin: 15px;
+  padding: 10;
 }
