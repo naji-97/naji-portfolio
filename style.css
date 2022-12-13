@@ -21,6 +21,30 @@ a {
   cursor: pointer;
 }
 
+button {
+  margin-top: 24px;
+  padding: 12px;
+  color: #396df2;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background-color: transparent;
+  font-size: 17px;
+  width: fit-content;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  border: none;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+button:active {
+  border: none;
+  color: #fff;
+  background: #2230d2;
+}
+
 ul {
   list-style: none;
 }
@@ -145,10 +169,6 @@ ul.links {
 
 .project .toni {
   justify-content: flex-start;
-}
-
-button {
-  border: none;
 }
 
 .project .toni h5 {
@@ -391,4 +411,14 @@ div.border-bootom {
   line-height: 24px;
   color: #b3bac5;
   padding: 15px 38px 15px 16px;
+}
+
+.submit-button {
+  width: 140px;
+  height: 48px;
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 12px 16px;
 }
