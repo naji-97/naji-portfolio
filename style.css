@@ -21,6 +21,10 @@ a {
   cursor: pointer;
 }
 
+button {
+  border: none;
+}
+
 ul {
   list-style: none;
 }
@@ -246,17 +250,34 @@ ul.links {
   border-radius: 16px;
 }
 
-.see-project a:hover {
+.content .see-resume a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 10px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background: #fff;
+  border: 1px solid #396df2;
+  border-radius: 16px;
+  justify-content: center;
+}
+
+.see-project a:hover,
+.see-resume a:hover {
   background: #6070ff;
   color: #fff;
 }
 
-.see-project a:active {
+.see-project a:active,
+.see-resume a:active {
   background: #2230d2;
   color: #fff;
 }
 
-.see-project a:disabled {
+.see-project a:disabled,
+.see-resume a:disabled {
   background: #e5e5e5;
   color: #5e6c84;
 }
@@ -285,20 +306,6 @@ ul.links {
   margin: 20px 0;
 }
 
-.content .see-resume a {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  padding: 10px;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  background: #fff;
-  border: 1px solid #396df2;
-  border-radius: 16px;
-  justify-content: center;
-}
-
 div.border-bootom {
   border-bottom: 1px solid #dfe1e6;
   padding: 20px 40px;
@@ -321,10 +328,10 @@ div.border-bootom {
   background-image: url(./assest/img/contact-bg.png);
   background-color: #fff;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   padding-top: 100px;
   justify-content: center;
+  background-size: 100% 100%;
+  padding-bottom: 20px;
 }
 
 .contact-me h2 {
