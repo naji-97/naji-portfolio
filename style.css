@@ -319,6 +319,18 @@ div.border-bootom {
 
 /* Contact me section */
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./assest/img/contact-bg.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  justify-content: center;
+}
+
 .contact-me h2 {
   display: flex;
   flex-direction: column;
@@ -341,4 +353,42 @@ div.border-bootom {
   color: #ebebff;
   margin: 15px;
   padding: 10;
+}
+
+.contact-me-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  padding: 15px 38px 15px 16px;
+}
+
+.input-textarea {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 150px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  padding: 15px 38px 15px 16px;
 }

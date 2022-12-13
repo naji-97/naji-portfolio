@@ -159,7 +159,7 @@
  </div>
  </section>
 
- <section class="contact-from">
+ <section class="contact-form">
     <div class="contac-card">
         <div class="contact-me">
             <h2>contact me</h2>
@@ -169,6 +169,46 @@
               features that you need built or a project that need coding. I'd love
               to help with it.
             </p>
+          </div>
+          <div class="contact-me-form">
+            <form>
+              <div class="username-input">
+                <input
+                  type="text"
+                  name="username"
+                  class="input"
+                  placeholder="enter username"
+                  maxlength="30"
+                  required
+                />
+              </div>
+              <br />
+              <div class="email-input">
+                <input
+                  type="email"
+                  name="email"
+                  class="input"
+                  placeholder="enter email"
+                  pattern="^[a-zA-Z0-9]+@domain\.[a-zA-z]+$"
+                  size="64"
+                  maxlength="64"
+                  required
+                />
+              </div>
+              <br />
+              <div class="text-area">
+                <textarea
+                  name="message"
+                  type="text"
+                  class="input-textarea"
+                  cols="30"
+                  maxlength="500"
+                  placeholder="enter your message here"
+                  required
+                ></textarea>
+              </div>
+            </form>
+
           </div>
     </div>
  </section>
