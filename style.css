@@ -511,7 +511,7 @@ div.border-bootom {
     color: #000;
   }
 
-  .languages div:first-child{
+  .languages div:first-child {
     padding-right: 20px;
   }
   .mycompetence li {
@@ -521,6 +521,14 @@ div.border-bootom {
     height: 100px;
     background: #f7f7f9;
     border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #253858;
   }
 
   .project .toni {
@@ -544,19 +552,15 @@ div.border-bootom {
     padding: 20px 16px;
   }
 
-  .about .content{
+  .about .content {
     padding: 20px 0;
   }
-  .mycompetence li{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 20px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-color: #253858;
+  .about p {
+    color: #172b4d;
+    padding-right: 20px;
+  }
+
+  .content .links {
+    padding: 20px 5px;
   }
 }
