@@ -11,7 +11,6 @@ body {
   background-color: #fff;
   color: #000;
   font-family: "Poppins", sans-serif;
-  width: 400px;
   margin: auto;
 }
 
@@ -43,10 +42,9 @@ ul {
   display: inline-block;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* Main-section */
+
+.menu {
   color: #6070ff;
   margin: 10px;
 }
@@ -100,12 +98,12 @@ ul.links {
   margin-top: 20px;
   padding-right: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .links li {
-  padding: 0 20px;
+  padding-right: 20px;
 }
 
 /* My project Section */
@@ -282,6 +280,8 @@ ul.links {
   color: #5e6c84;
 }
 
+/* About */
+
 .about {
   background-color: #e5e5e5;
   padding: 20px 10px;
@@ -429,4 +429,115 @@ div.border-bootom {
   border: none;
   color: #fff;
   background: #2230d2;
+}
+
+.navbar .links {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    margin: 10px 20px;
+    padding: 0 60px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .navbar .links {
+    display: flex;
+  }
+
+  ul.links {
+    margin-top: 0;
+  }
+
+  .main-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 130px;
+  }
+
+  .main-section h1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .main-section p {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .main-section div {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-2 {
+    display: grid;
+    order: 2;
+  }
+
+  .project .project-img {
+    width: 100%;
+    max-height: 100%;
+    height: auto;
+  }
+
+  .prject-content {
+    margin: 20px;
+    padding-bottom: 40px;
+  }
+
+  div.border-bootom {
+    border-bottom: 1px solid #dfe1e6;
+    padding: 20px;
+  }
+
+  .languages li {
+    margin: 20px 0;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: block;
+    color: #000;
+  }
+
+  .mycompetence li {
+    margin: 10px;
+    align-items: center;
+    max-width: 130px;
+    height: 120px;
+    background: #f7f7f9;
+    border-radius: 8px;
+  }
+
+  .project .toni {
+    justify-content: flex-start;
+  }
+
+  .languages ul.mycompetence {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .languages:first-child {
+    padding: 5px 20px;
+  }
+
+  .about {
+    margin: 30px 20px;
+    background-color: #fff;
+    padding: 20px 15px;
+  }
 }
