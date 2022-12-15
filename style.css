@@ -380,8 +380,6 @@ div.border-bootom {
 }
 
 .input-textarea {
-  display: flex;
-  flex-direction: row;
   width: 100%;
   height: 150px;
   background: #fff;
@@ -514,6 +512,7 @@ div.border-bootom {
   .languages div:first-child {
     padding-right: 20px;
   }
+
   .mycompetence li {
     margin: 10px;
     align-items: center;
@@ -555,6 +554,7 @@ div.border-bootom {
   .about .content {
     padding: 20px 0;
   }
+
   .about p {
     color: #172b4d;
     padding-right: 20px;
@@ -562,5 +562,27 @@ div.border-bootom {
 
   .content .links {
     padding: 20px 5px;
+  }
+
+  .contact-form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .contac-card {
+    grid-column: 2/4;
+  }
+
+  .contact-me-form .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form input,
+  .form textarea {
+    width: 447px;
+    border-radius: 0;
   }
 }
