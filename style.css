@@ -67,7 +67,7 @@ header {
   transition: transform 0.3s ease-in-out;
 }
 
-.logo:hover{
+.logo:hover {
   transform: rotate(90deg);
 }
 
@@ -455,7 +455,6 @@ div.border-bootom {
 @media screen and (min-width: 768px) {
   header {
     background: white;
-    /* padding-bottom: 200px; */
   }
 
   .navbar {
