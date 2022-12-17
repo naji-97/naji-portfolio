@@ -357,6 +357,11 @@ div.border-bootom {
   color: #ebebff;
   margin: 15px;
   padding: 10;
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-me p:hover {
+  transform: translate(42px, 8px);
 }
 
 .contact-me-form {
