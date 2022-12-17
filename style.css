@@ -64,8 +64,11 @@ header {
   margin-top: 10px;
   margin-left: 12px;
   color: #6070ff;
-  /* transition: transform;
-  transform: rotate(90deg); */
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover{
+  transform: rotate(90deg);
 }
 
 .main-section {
