@@ -18,7 +18,7 @@
 
 For this repository, I've created html templates and styling files in order to built a responsive portfolio, which can help to easy explorate profiles from differents devices.
 
-![Online version  Link](https://naji-97.github.io/Portfolio-/)
+[Online version Link](https://naji-97.github.io/Portfolio-/)
 
 ## Built With 🔨
 
