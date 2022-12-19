@@ -476,10 +476,13 @@ div.border-bootom {
   .main-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 50px 130px;
+    padding: 100px 130px;
     background-position: unset;
     margin: 0;
+    margin-bottom: 20px;
     border-bottom-left-radius: 50px;
+    background-image: url(./assest/img/desktop-header-bg.png);
+    background-color: #fff;
   }
 
   .main-section h1 {
@@ -607,6 +610,8 @@ div.border-bootom {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-size: cover;
+    background-color: #6070ff;
+    background-image: url(./assest/img/destop-contact-bg.png);
   }
 
   .contac-card {
