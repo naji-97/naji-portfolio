@@ -43,6 +43,10 @@ ul {
   display: inline-block;
 }
 
+label {
+  visibility: hidden;
+}
+
 /* Main-section */
 
 .menu {
