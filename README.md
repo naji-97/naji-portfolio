@@ -28,7 +28,7 @@ For this repository, I've created html templates and styling files in order to b
 
 ## Live Demo
 
-[Live Demo Link](<https://github.com/naji-97/Portfolio-/assest/img/Screenshot> 2022-12-02 111444.png/)
+[Live Demo Link](https://naji-97.github.io/Portfolio-/)
 
 ### Install
 
