@@ -43,6 +43,10 @@ ul {
   display: inline-block;
 }
 
+label {
+  display: none;
+}
+
 /* Main-section */
 
 .menu {
@@ -75,12 +79,6 @@ header {
   background-image: url(./assest/img/header-shapes\ mobile.jpg);
   background-position: top;
   padding: 100px 20px;
-
-  /* padding-top; */
-
-  /* margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px; */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -98,7 +96,7 @@ header {
   color: #172b4d;
 }
 
-.main-section h5 {
+.main-section button {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -106,6 +104,7 @@ header {
   color: #7f8cff;
   align-self: flex-start;
   margin: 20px 0;
+  background: none;
 }
 
 ul.links {
@@ -279,8 +278,14 @@ ul.links {
 
 .see-project a:disabled,
 .see-resume a:disabled {
-  background: #e5e5e5;
+  background: #fff;
   color: #5e6c84;
+}
+
+.see-project a:enabled,
+.see-resume a:enabled {
+  background: #fff;
+  color: #6070ff;
 }
 
 .project .project-img {
@@ -435,17 +440,24 @@ div.border-bootom {
   transition: all cubic-bezier(0.08, 0.82, 0.48, 1.28) 3s;
 }
 
+.contact-form button:enabled {
+  color: #6070ff;
+  background: #fff;
+}
+
 .contact-form button:hover {
-  border: none;
   color: #fff;
-  background: #29323c;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  background: #6070ff;
 }
 
 .contact-form button:active {
-  border: none;
   color: #fff;
   background: #2230d2;
+}
+
+.contact-form button:disabled {
+  color: #5e6c84;
+  background: #fff;
 }
 
 .navbar .links {
@@ -629,5 +641,6 @@ div.border-bootom {
   .form textarea {
     width: 447px;
     border-radius: 0;
+    padding-left: 20px;
   }
 }

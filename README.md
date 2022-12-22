@@ -29,8 +29,10 @@ For this repository, I've created html templates and styling files in order to b
 ## Online Version 
 [Online Version Link](<https://naji-97.github.io/Portfolio-/)
 
+
+
 ## Live Demo
-[Live Demo Link](<https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1&t=t79ZHc8kYVy3uIUT-0)
+[Live Demo Link](https://naji-97.github.io/Portfolio-/)
 
 ### Install
 
