@@ -504,6 +504,9 @@ div.border-bootom {
   color: #5e6c84;
   background: #fff;
 }
+.links {
+  display: none;
+}
 
 .navbar .links {
   display: none;

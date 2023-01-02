@@ -17,9 +17,9 @@
         <div class="navbar flex">
             <a class="logo" href="#"> My logo</a>
             <ul class="links">
-                <li><a href="#">Protfolio</a> </li>
+                <li><a href="#Protfolio">Protfolio</a> </li>
                 <li onclick="mobileMenu()"><a href="#about">About</a> </li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
             <div class="menu"><i onclick="mobileMenu()" class="fa-solid fa-bars"></i></div>
         </div>
@@ -29,9 +29,9 @@
             </div>
             <ul class="column-direction">
                 
-                <li><a href="#">Protfolio</a> </li>
+                <li onclick="removeBlur()"><a href="#Protfolio">Protfolio</a> </li>
                 <li onclick="removeBlur()"><a href="#about">About</a> </li>
-                <li><a href="#">Contact</a></li>
+                <li onclick="removeBlur()"><a href="#Contact">Contact</a></li>
             </ul>
         </div>
     </header>
@@ -65,7 +65,7 @@
 
 
 
-    <section class="projects">
+    <section class="projects" id="Protfolio">
 
 
         <div class="project grid">
@@ -218,7 +218,7 @@
         </div>
     </section>
 
-    <section class="contact-form">
+    <section class="contact-form" id="Contact">
         <div class="contac-card">
             <div class="contact-me">
                 <h2>contact me</h2>
