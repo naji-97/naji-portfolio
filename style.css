@@ -395,8 +395,12 @@ div.border-bootom {
   background-repeat: no-repeat;
   padding-top: 100px;
   justify-content: center;
-  background-size: 100% 100%;
+  background-size: cover;
   padding-bottom: 20px;
+}
+
+.contac-card {
+  padding-top: 100px;
 }
 
 .contact-me h2 {
@@ -682,6 +686,7 @@ div.border-bootom {
     background-size: cover;
     background-color: #6070ff;
     background-image: url(./assest/img/destop-contact-bg.png);
+    border-top-left-radius: 100px;
   }
 
   .contac-card {
