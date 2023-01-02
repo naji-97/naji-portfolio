@@ -12,19 +12,31 @@
     <title>Naji portfolio</title>
 </head>
 
-<body>
+<body class="mobile">
     <header>
         <div class="navbar flex">
             <a class="logo" href="#"> My logo</a>
             <ul class="links">
                 <li><a href="#">Protfolio</a> </li>
-                <li><a href="#">About</a> </li>
+                <li onclick="mobileMenu()"><a href="#about">About</a> </li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <div class="menu"><i class="fa-solid fa-bars"></i></div>
+            <div class="menu"><i onclick="mobileMenu()" class="fa-solid fa-bars"></i></div>
+        </div>
+        <div class="mobile-menu non-display" id="mobile-menu">
+            <div class="xmark">
+                <i onclick="mobileMenu()" class="fa-solid fa-xmark"></i>
+            </div>
+            <ul class="column-direction">
+                
+                <li><a href="#">Protfolio</a> </li>
+                <li onclick="removeBlur()"><a href="#about">About</a> </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </div>
     </header>
     <section class="main-section">
+        <div class="" id="blur">
         <h1>I’m Naji <br>
             Glad to see you!</h1>
         <p class="description">
@@ -48,6 +60,7 @@
                             alt="my mudieum account" srcset=""></a></li>
             </ul>
         </div>
+    </div>
     </section>
 
 
@@ -74,7 +87,7 @@
                 </ul>
 
                 <div class="see-project">
-                    <button><a href="#">See project</a></button>
+                    <button><a href="./project1.html">See project</a></button>
                 </div>
             </div>
         </div>
@@ -154,7 +167,7 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="content grid">
             <div>
                 <h2>About <br> Myself</h2>
@@ -246,6 +259,7 @@
     </section>
 
 
+    <script src="./main.js"></script>
 </body>
 
 </html>
