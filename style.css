@@ -59,7 +59,7 @@ label {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #6070FF;
+  background-color: #6070ff;
   padding: 20px;
   opacity: 92%;
 }
@@ -73,19 +73,19 @@ label {
 }
 
 .mobile-menu a {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
   width: 100%;
 }
 
 .xmark {
   position: absolute;
   right: 20px;
-  margin-top: 0px;
+  margin-top: 0;
   margin-right: 14px;
   margin-left: 20px;
   margin-bottom: 20px;
@@ -139,6 +139,7 @@ header {
 
 .main-section p {
   color: #172b4d;
+  padding: 5px 20px;
 }
 
 .main-section button {
@@ -504,6 +505,7 @@ div.border-bootom {
   color: #5e6c84;
   background: #fff;
 }
+
 .links {
   display: none;
 }
@@ -512,6 +514,13 @@ div.border-bootom {
   display: none;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+}
 
 @media screen and (min-width: 768px) {
   header {
@@ -553,6 +562,7 @@ div.border-bootom {
   .main-section p {
     grid-column-start: 1;
     grid-column-end: 4;
+    padding: 10px 30px;
   }
 
   .main-section div {
