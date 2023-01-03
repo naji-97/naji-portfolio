@@ -35,7 +35,6 @@
 
 # 📰 My Portfolio <a name="about-project"></a>
 
-- My Portfolio project is a project aimed at building my professional portfolio and also showcase my works and skills as a web developer.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,16 +48,6 @@ This Project was built with the following technologies
   </ul>
 </details>
 
-### Key Features <a name="key-features"></a>
-
-- Navbar
-- Headline Section
-- Portfolio Section
-- About Section
-- Contact Section
-- Footer Section
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
