@@ -36,9 +36,12 @@
 # 📰 My Portfolio <a name="about-project"></a>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - My Portfolio project is a project aimed at building my professional portfolio and also showcase my works and skills as a web developer.
 =======
 >>>>>>> 63f8f65a6779fa5bd53082caa561d4e3951f7fe7
+=======
+>>>>>>> ba986e0570bef906bcd95ae700d23b34018afe36
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,6 +55,7 @@ This Project was built with the following technologies
   </ul>
 </details>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ### Key Features <a name="key-features"></a>
 
@@ -70,6 +74,8 @@ This Project was built with the following technologies
 
 [Project presentation link](https://www.loom.com/share/20b361cef9394e04bc42dc5fb7797712/)
 >>>>>>> 63f8f65a6779fa5bd53082caa561d4e3951f7fe7
+=======
+>>>>>>> ba986e0570bef906bcd95ae700d23b34018afe36
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
