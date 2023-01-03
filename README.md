@@ -1,87 +1,164 @@
+<a name="readme-top"></a>
+
+<div align="center">
+
+  <img src="./images/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>My Portfolio README </b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)<br>
-  🛠 Built With<br>
-  -Tech Stack<br>
-  -Key Features<br>
-  💻 Getting Started<br>
-  -Setup<br>
-  -Prerequisites<br>
-- [👥 Authors](#authors)<br>
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  <!-- - [Prerequisites](#prerequisites) -->
+  - [Install](#install)
+    <!-- - [Usage](#usage) -->
+    <!-- - [Run tests](#run-tests) -->
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+<!-- - [❓ FAQ](#faq) -->
+- [📝 License](#license)
 
-For this repository, I've created html templates and styling files in order to built a responsive portfolio, which can help to easy explorate profiles from differents devices.
+# 📰 My Portfolio <a name="about-project"></a>
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+- My Portfolio project is a project aimed at building my professional portfolio and also showcase my works and skills as a web developer.
+=======
+>>>>>>> 63f8f65a6779fa5bd53082caa561d4e3951f7fe7
+=======
+>>>>>>> ba986e0570bef906bcd95ae700d23b34018afe36
 
-## Built With 🔨
+## 🛠 Built With <a name="built-with"></a>
 
-- HTML
-- CSS
-- Git & Github
+This Project was built with the following technologies
 
-## Online Version
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="">HTML</a></li>
+    <li><a href="">CSS</a></li>
+  </ul>
+</details>
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+### Key Features <a name="key-features"></a>
+
+- Navbar
+- Headline Section
+- Portfolio Section
+- About Section
+- Contact Section
+- Footer Section
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+=======
 [Online Version Link](https://naji-97.github.io/Portfolio-/)
 
 ## Project presentation
 
 [Project presentation link](https://www.loom.com/share/20b361cef9394e04bc42dc5fb7797712/)
+>>>>>>> 63f8f65a6779fa5bd53082caa561d4e3951f7fe7
+=======
+>>>>>>> ba986e0570bef906bcd95ae700d23b34018afe36
 
-## Live Demo
+## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live Demo Link](https://naji-97.github.io/Portfolio-/)
+No Live Demo for this project yet
 
-### Install
+- [Live Demo Link]((https://naji-97.github.io/Portfolio-/)
 
-To get a local copy up and running follow these simple example steps.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Open terminal
-- Clone this project by the command:
+## 💻 Getting Started <a name="getting-started"></a>
 
-git clone <https://github.com/naji-97/Portfolio-/>
-
-- Then go to the main folder using the next command:
-
-``
-cd Portfolio-setup-and-mobile-version-skeleton.git
-
-- Finally, run diplay the index.html file in your local browser, or also, you can use Live Server in Visual Studio Code.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- IDE to edit and run the code (We use Visual Studio Code 🔥).
-- Git to versionning your work.
+In order to run this project you need to run the following command:
+
+- npm init -y
+
+### Setup
+
+Clone this repository to your desired folder:
+
+- cd my-folder
+- git clone https://github.com/naji-97/Portfolio-.git
+
+### Install
+
+Install this project with:
+
+- cd my-project
+- npm install
 
 ### Usage
 
-- For anyone who wants to practice html5 or/and css3
-- For anyone who wants to create his own portfolio.
+To run the project, execute the following command:
 
-## Authors
+- run with live server
 
-👤 **Naji@97**
+### Deployment
+
+- You can deploy this project using:
+- [vercel](https://vercel.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
+### Author1
 
 - GitHub: [@Naji-97](https://github.com/Naji-97)
-- LinkedIn: [@Naji-Ali](https://www.linkedin.com/in/naji-ali-55b5421b3//)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/naji-ali-55b5421b3)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] None at the moment
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-## Show your support
+Feel free to check the [issues page](../../issues/).
 
-Give a ⭐️ if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Hat tip to anyone whose code was used 🔰
-- Inspiration 💘
-- Microverse program ⚡
-- My standup team 🏹
-- My family's support 🙌
+If you like this project kindly reach out to be for any show of support.
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse for giving us this task to build our portfolio using template and designs provided by them.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
