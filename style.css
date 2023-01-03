@@ -54,18 +54,51 @@ label {
 /* Mobile Menu */
 
 .mobile-menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   background-color: #6070ff;
-  padding: 20px;
-  opacity: 92%;
+  padding: 10px 40px;
+  opacity: 90%;
+  z-index: 100;
+}
+
+.mobile-menu ul {
+  padding-top: 50px;
+}
+
+.links li {
+  padding-right: 20px;
+}
+
+.mycompetence li {
+  padding: 10px 20px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  justify-content: flex-start;
+  width: 303px;
+}
+
+.languages li {
+  margin: 20px 0;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.mobile-menu ul li {
+  padding-top: 10px;
 }
 
 .blur {
-  filter: blur(10px);
+  filter: blur(8px);
 }
 
 .non-display {
@@ -73,23 +106,28 @@ label {
 }
 
 .mobile-menu a {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 32px;
   line-height: 44px;
-  color: #fff;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #ffff;
 }
 
 .xmark {
   position: absolute;
   right: 20px;
-  margin-top: 0;
-  margin-right: 14px;
+  margin-top: -10px;
+  margin-right: -8px;
   margin-left: 20px;
   margin-bottom: 20px;
   color: #ffff;
+}
+
+.xmark i {
+  padding-top: 13px;
 }
 
 /* Main-section */
@@ -161,9 +199,7 @@ ul.links {
   align-items: center;
 }
 
-.links li {
-  padding-right: 20px;
-}
+
 
 /* My project Section */
 
@@ -219,26 +255,6 @@ ul.links {
   line-height: 16px;
   list-style: circle;
   list-style-type: circle;
-}
-
-.mycompetence li {
-  padding: 10px 20px;
-  background: #f7f7f9;
-  border-radius: 8px;
-  justify-content: flex-start;
-  width: 303px;
-}
-
-.languages li {
-  margin: 20px 0;
-  justify-content: space-between;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #000;
 }
 
 .project ul li {
