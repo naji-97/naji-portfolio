@@ -85,5 +85,12 @@ for (let i = 0; i < projectCard.length; i += 1) {
     for (let j = 0; j < lgLists.length; j += 1) {
       lgLists[j].innerText = project.featured[j];
     }
+    for (let n = 0; n < technologiesList.length; n += 1) {
+      technologiesList[n].innerText = project.technologies[n];
+    }
+
+    closeButton.addEventListener('click', () => {
+      boxModal.classList.remove('active');
+    });
   });
 }
