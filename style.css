@@ -23,6 +23,7 @@ a {
 
 button {
   border: none;
+  cursor: pointer;
 }
 
 ul {
@@ -541,12 +542,17 @@ div.border-bootom {
 /* Start Modal for Mobile */
 
 .modal {
+  display: none;
   padding: 15px;
   z-index: 100;
   position: absolute;
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal.active {
+  display: block;
 }
 
 .modal-box {
@@ -559,12 +565,6 @@ div.border-bootom {
   padding: 15px;
   margin: 16px;
   border-radius: 20px;
-
-  /* width: 90%; */
-}
-
-.title-icon {
-  /* padding: 5px ; */
 }
 
 .title-icon .pjname {
@@ -590,7 +590,6 @@ div.border-bootom {
 }
 
 .modal-btn-group .technologies {
-  /* padding: 20px 0; */
   padding-top: 20px;
   border-bottom: 1px solid #ebecf0;
 }
