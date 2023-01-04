@@ -70,11 +70,13 @@ const liveLink = boxModal.querySelector('#liveLink');
 const sourceLink = boxModal.querySelector('#sourceLink');
 const closeButton = boxModal.querySelector('.close-btn');
 
+const blur = document.getElementById('blur');
+
 for (let i = 0; i < projectCard.length; i += 1) {
   const pjBtn = projectCard[i].querySelector('#project-btn');
   const project = projectDetails[i];
-
   pjBtn.addEventListener('click', () => {
+    blur.classList.toggle('blur');
     boxModal.classList.add('active');
     pjName.innerText = project.name;
     mainImage.src = project.image;
@@ -90,6 +92,8 @@ for (let i = 0; i < projectCard.length; i += 1) {
     }
 
     closeButton.addEventListener('click', () => {
+      blur.classList.toggle('blur');
+
       boxModal.classList.remove('active');
     });
   });
