@@ -21,7 +21,7 @@ const projectDetails = [
     name: 'Tonic',
     featured: ['CANOPY', 'Back End Dev', '2022'],
     description:
-            'Loreme ipsum dolor sit, amet consectetur adipisicing elit. Dolores mollitia, sapiente deleniti voluptas exercitationem dolore, nihil facilis doloremque dicta dignissimos, fugit maxime culpa obcaecati nisi corrupti id sunt vel sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem iure pariatur dolores, voluptate natus modi vel architecto enim accusantium accusamus sed sapiente at laborum quas quo quam? Corporis, ab dolorem! NAJI',
+      'Loreme ipsum dolor sit, amet consectetur adipisicing elit. Dolores mollitia, sapiente deleniti voluptas exercitationem dolore, nihil facilis doloremque dicta dignissimos, fugit maxime culpa obcaecati nisi corrupti id sunt vel sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem iure pariatur dolores, voluptate natus modi vel architecto enim accusantium accusamus sed sapiente at laborum quas quo quam? Corporis, ab dolorem! NAJI',
     image: './assest/img/Snapshoot Portfolio.png',
     technologies: ['html', 'css', 'havascript', 'github', 'ruby', 'Bootstrap'],
     live: 'https://naji-97.github.io/Portfolio-/',
@@ -31,7 +31,7 @@ const projectDetails = [
     name: 'Multi-Post Stories',
     featured: ['CANOPY', 'Back End Dev', '2022'],
     description:
-            'Loreme ipsum dolor sit, amet consectetur adipisicing elit. Dolores mollitia, sapiente deleniti voluptas exercitationem dolore, nihil facilis doloremque dicta dignissimos, fugit maxime culpa obcaecati nisi corrupti id sunt vel sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem iure pariatur dolores, voluptate natus modi vel architecto enim accusantium accusamus sed sapiente at laborum quas quo quam? Corporis, ab dolorem!',
+      'Loreme ipsum dolor sit, amet consectetur adipisicing elit. Dolores mollitia, sapiente deleniti voluptas exercitationem dolore, nihil facilis doloremque dicta dignissimos, fugit maxime culpa obcaecati nisi corrupti id sunt vel sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem iure pariatur dolores, voluptate natus modi vel architecto enim accusantium accusamus sed sapiente at laborum quas quo quam? Corporis, ab dolorem!',
     image: './assest/img/Snapshoot Portfolio (1).png',
     technologies: ['html', 'css', 'havascript', 'github', 'ruby', 'Bootstrap'],
     live: 'https://naji-97.github.io/Portfolio-/',
@@ -41,7 +41,7 @@ const projectDetails = [
     name: 'Facebook 360',
     featured: ['CANOPY', 'Back End Dev', '2022'],
     description:
-            'Loreme ipsum dolor sit, amet consectetur adipisicing elit. Dolores mollitia, sapiente deleniti voluptas exercitationem dolore, nihil facilis doloremque dicta dignissimos, fugit maxime culpa obcaecati nisi corrupti id sunt vel sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem iure pariatur dolores, voluptate natus modi vel architecto enim accusantium accusamus sed sapiente at laborum quas quo quam? Corporis, ab dolorem!',
+      'Loreme ipsum dolor sit, amet consectetur adipisicing elit. Dolores mollitia, sapiente deleniti voluptas exercitationem dolore, nihil facilis doloremque dicta dignissimos, fugit maxime culpa obcaecati nisi corrupti id sunt vel sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem iure pariatur dolores, voluptate natus modi vel architecto enim accusantium accusamus sed sapiente at laborum quas quo quam? Corporis, ab dolorem!',
     image: './assest/img/Snapshoot Portfolio (2).png',
     technologies: ['html', 'css', 'havascript', 'github', 'ruby', 'Bootstrap'],
     live: 'https://naji-97.github.io/Portfolio-/',
@@ -51,8 +51,8 @@ const projectDetails = [
     name: 'Uber Navigation',
     featured: ['CANOPY', 'Back End Dev', '2022'],
     description:
-            'Loreme ipsum dolor sit, amet consectetur adipisicing elit. Dolores mollitia, sapiente deleniti voluptas exercitationem dolore, nihil facilis doloremque dicta dignissimos, fugit maxime culpa obcaecati nisi corrupti id sunt vel sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem iure pariatur dolores, voluptate natus modi vel architecto enim accusantium accusamus sed sapiente at laborum quas quo quam? Corporis, ab dolorem!',
-    image: './assest/img/Snapshoot Portfolio (2).png',
+      'Loreme ipsum dolor sit, amet consectetur adipisicing elit. Dolores mollitia, sapiente deleniti voluptas exercitationem dolore, nihil facilis doloremque dicta dignissimos, fugit maxime culpa obcaecati nisi corrupti id sunt vel sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem iure pariatur dolores, voluptate natus modi vel architecto enim accusantium accusamus sed sapiente at laborum quas quo quam? Corporis, ab dolorem!',
+    image: './assest/img/Snapshoot Portfolio (3).png',
     technologies: ['html', 'css', 'havascript', 'github', 'ruby', 'Bootstrap'],
     live: 'https://naji-97.github.io/Portfolio-/',
     source: 'https://github.com/naji-97',
