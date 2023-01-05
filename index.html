@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Naji portfolio</title>
 </head>
 
 <body class="mobile">
-    <header >
+    <header>
         <div class="navbar flex">
             <a class="logo" href="#"> My logo</a>
             <ul class="links">
@@ -21,7 +21,7 @@
                 <li onclick=""><a href="#about">About</a> </li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="menu"><i onclick="mobileMenu()" class="fa-solid fa-bars"></i></div>
+            <div class="menu"><i class="fa-solid navi fa-bars"></i></div>
         </div>
         <div class="mobile-menu non-display" id="mobile-menu">
             <div class="xmark">
@@ -36,7 +36,7 @@
         </div>
     </header>
     <section class="main-section" id="blur">
-        <div class="" id="blur">
+        <div id="">
             <h1>I’m Naji <br>
                 Glad to see you!</h1>
             <p class="description">
@@ -66,7 +66,7 @@
 
 
 
-    <section class="projects " id="projects" >
+    <section class="projects " id="projects">
 
 
         <div class="project grid">
@@ -88,7 +88,7 @@
                 </ul>
 
                 <div class="see-project">
-                    <button><a href="./project1.html">See project</a></button>
+                    <button id="project-btn"><a href="#">See project</a></button>
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@
                     <li>javaScript</li>
                 </ul>
                 <div class="see-project">
-                    <button><a href="#">See project</a></button>
+                    <button id="project-btn"><a href="#">See project</a></button>
                 </div>
             </div>
         </div>
@@ -137,7 +137,7 @@
                     <li>javaScript</li>
                 </ul>
                 <div class="see-project">
-                    <button><a href="#">See project</a></button>
+                    <button id="project-btn"><a href="#">See project</a></button>
                 </div>
             </div>
         </div>
@@ -163,7 +163,7 @@
                     <li>javaScript</li>
                 </ul>
                 <div class="see-project">
-                    <button><a href="#">See project</a></button>
+                    <button id="project-btn"><a href="#">See project</a></button>
                 </div>
             </div>
         </div>
@@ -252,11 +252,60 @@
                     <button type="submit" value="Get In Touch" class="submit-button">
                         Get In Touch
                     </button>
+                    <span class="message"></span>
                 </form>
             </div>
 
         </div>
     </section>
+
+    <!-- change modal box -->
+    <!-- Start Modal Box -->
+    <section id="modal" class="modal">
+        <div class="modal-box">
+            <div class="flex title-icon">
+                <h3 class="pjname"></h3>
+                <button type="button" class="close-btn"><i class="fa-solid fa-x"></i></button>
+            </div>
+            <ul class="lg-lists toni flex" id="featured ">
+                <li></li>
+                <span></span>
+                <li> </li>
+                <span></span>
+                <li> </li>
+            </ul>
+
+            <div class="img-group">
+                <div class="main-img flex">
+                    <img src="" alt="">
+                </div>
+            </div>
+
+            <div class="pj-info grid">
+
+                <p class="modal-content "></p>
+                <div class="modal-btn-group ">
+                    <ul class="technologies flex" id="technologies-list">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div class="see-project flex">
+                        <a href="https://naji-97.github.io/Portfolio-/" id="liveLink" class="modal-btn flex"><span>See
+                                live</span><img src="./assest/img/Icon.png" alt="live-link" /></a>
+                        <a href="https://github.com/naji-97" id="sourceLink" class="modal-btn flex"><span>See
+                                source</span><img src="./assest/img/Vector.png" alt="" /></a>
+                    </div>
+                </div>
+
+
+
+            </div>
+    </section>
+    <!-- End Modal Box --> <!-- change modal box -->
 
 
     <script src="./main.js"></script>
