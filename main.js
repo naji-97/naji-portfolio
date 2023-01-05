@@ -98,3 +98,35 @@ for (let i = 0; i < projectCard.length; i += 1) {
     });
   });
 }
+
+// Start Form Validation
+const getForm = document.querySelector('.form');
+const getEmail = document.querySelector('input[type="email"');
+const getMesg = document.querySelector('form .message');
+
+function errorMesg(msg) {
+  getMesg.style.display = 'block';
+  getMesg.innerText = msg;
+}
+
+function successMesg(msg) {
+  getMesg.style.display = 'block';
+  getMesg.style.color = 'green';
+  getMesg.style.borderColor = 'green';
+  getMesg.innerText = msg;
+}
+
+function checkLowerCase(input, event) {
+  if (input.value !== input.value.toLowerCase()) {
+    errorMesg(`${input.type} should be in lowercase. Please resubmit again`);
+    event.preventDefault();
+  } else {
+    successMesg('Thank You. We will consider it.');
+  }
+  getForm.submit();
+}
+
+getForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  checkLowerCase(getEmail);
+});
