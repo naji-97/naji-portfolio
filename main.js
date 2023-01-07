@@ -138,15 +138,10 @@ const getTextArea = document.querySelector('textarea');
 
 const dataStore = JSON.parse(localStorage.getItem('dataStore')) || [];
 
-const addData = (name, email, text) => {
+const addData = ((name, email, text) => {
   dataStore.push({ name, email, text });
   localStorage.setItem('dataStore', JSON.stringify(dataStore));
   return { name, email, text };
-};
-
-getForm.addEventListener('change', (e) => {
-  e.preventDefault();
-  addData(getName.value, getEmail.value, getTextArea.value);
 });
 
 const showData = (({ name, email, text }) => {
@@ -156,3 +151,8 @@ const showData = (({ name, email, text }) => {
 });
 
 dataStore.forEach(showData);
+
+getForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  addData(getName.value, getEmail.value, getTextArea.value);
+});
