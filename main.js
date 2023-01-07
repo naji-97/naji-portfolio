@@ -136,23 +136,25 @@ getForm.addEventListener('submit', (e) => {
 const getName = document.querySelector('input[type="text"]');
 const getTextArea = document.querySelector('textarea');
 
-const dataStore = JSON.parse(localStorage.getItem('dataStore')) || [];
+const dataStore = () => {
+  const visitor = {
+    userName: getName.value,
+    userEmail: getEmail.value,
+    userMesg: getTextArea.value,
+  };
+  localStorage.setItem('visitor', JSON.stringify(visitor));
+};
 
-const addData = ((name, email, text) => {
-  dataStore.push({ name, email, text });
-  localStorage.setItem('dataStore', JSON.stringify(dataStore));
-  return { name, email, text };
-});
+// Trigger for populating local storage
+getName.addEventListener('focusout', dataStore);
+getEmail.addEventListener('focusout', dataStore);
+getTextArea.addEventListener('focusout', dataStore);
+// Parse data from local storage
+const userDataObject = JSON.parse(localStorage.getItem('visitor'));
 
-const showData = (({ name, email, text }) => {
-  getName.value = name;
-  getEmail.value = email;
-  getTextArea.value = text;
-});
-
-dataStore.forEach(showData);
-
-getForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-  addData(getName.value, getEmail.value, getTextArea.value);
-});
+// Refilling form inputs
+if (userDataObject) {
+  getName.value = userDataObject.userName;
+  getEmail.value = userDataObject.userEmail;
+  getTextArea.value = userDataObject.userMesg;
+}
