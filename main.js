@@ -130,3 +130,31 @@ getForm.addEventListener('submit', (e) => {
   e.preventDefault();
   checkLowerCase(getEmail);
 });
+
+// Start LocalStorage
+
+const getName = document.querySelector('input[type="text"]');
+const getTextArea = document.querySelector('textarea');
+
+const dataStore = () => {
+  const visitor = {
+    userName: getName.value,
+    userEmail: getEmail.value,
+    userMesg: getTextArea.value,
+  };
+  localStorage.setItem('visitor', JSON.stringify(visitor));
+};
+
+// Trigger for populating local storage
+getName.addEventListener('focusout', dataStore);
+getEmail.addEventListener('focusout', dataStore);
+getTextArea.addEventListener('focusout', dataStore);
+// Parse data from local storage
+const userDataObject = JSON.parse(localStorage.getItem('visitor'));
+
+// Refilling form inputs
+if (userDataObject) {
+  getName.value = userDataObject.userName;
+  getEmail.value = userDataObject.userEmail;
+  getTextArea.value = userDataObject.userMesg;
+}
