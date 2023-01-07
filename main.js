@@ -130,3 +130,24 @@ getForm.addEventListener('submit', (e) => {
   e.preventDefault();
   checkLowerCase(getEmail);
 });
+
+// Start LocalStorage
+
+const getName = document.querySelector('input[type="text"]');
+const getTextArea = document.querySelector('textarea');
+
+const dataStore = JSON.parse(localStorage.getItem('dataStore')) || [];
+
+const addData = (name, email, text) => {
+  dataStore.push({ name, email, text });
+  localStorage.setItem('dataStore', JSON.stringify(dataStore));
+  return { name, email, text };
+};
+
+const showData = (({ name, email, text }) => {
+  getName.value = name;
+  getEmail.value = email;
+  getTextArea.value = text;
+});
+
+dataStore.forEach(showData);
