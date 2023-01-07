@@ -144,6 +144,11 @@ const addData = (name, email, text) => {
   return { name, email, text };
 };
 
+getForm.addEventListener('change', (e) => {
+  e.preventDefault();
+  addData(getName.value, getEmail.value, getTextArea.value);
+});
+
 const showData = (({ name, email, text }) => {
   getName.value = name;
   getEmail.value = email;
