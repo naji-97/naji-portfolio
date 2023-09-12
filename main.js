@@ -18,14 +18,14 @@ menu.addEventListener('click', mobileMenu);
 //    Start Modal Box
 const projectDetails = [
   {
-    name: 'Tonic',
-    featured: ['CANOPY', 'Back End Dev', '2022'],
+    name: 'developer conferences',
+    // featured: ['CANOPY', 'Back End Dev', '2022'],
     description:
-      'Loreme ipsum dolor sit, amet consectetur adipisicing elit. Dolores mollitia, sapiente deleniti voluptas exercitationem dolore, nihil facilis doloremque dicta dignissimos, fugit maxime culpa obcaecati nisi corrupti id sunt vel sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem iure pariatur dolores, voluptate natus modi vel architecto enim accusantium accusamus sed sapiente at laborum quas quo quam? Corporis, ab dolorem! NAJI',
-    image: './assest/img/Snapshoot Portfolio.png',
-    technologies: ['html', 'css', 'havascript', 'github', 'ruby', 'Bootstrap'],
-    live: 'https://naji-97.github.io/Portfolio-/',
-    source: 'https://github.com/naji-97',
+      `The website for the world's leading developer event is designed using modern CSS techniques like CSS Grid, Flexbox, and pseudo-selectors.`,
+    image: './assest/img/js-project/we-are-dev.png',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'GitHub'],
+    live: 'https://naji-97.github.io/CapstonePrj1-ConferencePage/index.html',
+    source: 'https://github.com/naji-97/CapstonePrj1-ConferencePage',
   },
   {
     name: 'Multi-Post Stories',
@@ -62,7 +62,7 @@ const projectDetails = [
 const projectCard = document.querySelectorAll('.project');
 const boxModal = document.getElementById('modal');
 const pjName = boxModal.querySelector('.pjname');
-const lgLists = boxModal.querySelectorAll('.lg-lists li');
+// const lgLists = boxModal.querySelectorAll('.lg-lists li');
 const mainImage = boxModal.querySelector('.main-img img');
 const modalContent = boxModal.querySelector('.modal-content');
 const technologiesList = boxModal.querySelectorAll('#technologies-list li');
@@ -84,9 +84,9 @@ for (let i = 0; i < projectCard.length; i += 1) {
     liveLink.href = project.live;
     sourceLink.href = project.source;
 
-    for (let j = 0; j < lgLists.length; j += 1) {
-      lgLists[j].innerText = project.featured[j];
-    }
+    // for (let j = 0; j < lgLists.length; j += 1) {
+    //   // lgLists[j].innerText = project.featured[j];
+    // }
     for (let n = 0; n < technologiesList.length; n += 1) {
       technologiesList[n].innerText = project.technologies[n];
     }
