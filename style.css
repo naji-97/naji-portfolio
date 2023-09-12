@@ -182,7 +182,7 @@ header {
 
 .main-section .title img{
   border-radius: 50%;
-  
+
 }
 
 .main-section .title span{
@@ -222,6 +222,7 @@ ul.links {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
+
 }
 
 .content h5 {
@@ -241,6 +242,7 @@ ul.links {
   display: grid;
   grid-template-columns: 80%;
   grid-template-rows: 1fr;
+  align-items: center;
 }
 
 .project h2 {
@@ -413,9 +415,10 @@ div.border-bootom {
   padding: 20px 40px;
 }
 
-.languages ul.mycompetence {
+.languages ul.mycompetence, ul.myframwork, ul.myskils {
   flex-direction: column;
   align-items: flex-start;
+  display: none;
 }
 
 .mycompetence li img {
@@ -856,7 +859,7 @@ form .message {
   }
 
   .languages div:first-child {
-    padding-right: 20px;
+    /* padding:0 20px; */
   }
 
   .mycompetence li {
@@ -906,6 +909,11 @@ form .message {
     color: #172b4d;
   }
 
+  .languages ul.mycompetence, ul.myframwork, ul.myskils {
+    /* flex-direction: column; */
+    align-items: flex-start;
+    /* display: none; */
+  }
   .content .see-resume a {
     border-radius: 10px;
   }

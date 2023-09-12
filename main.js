@@ -21,41 +21,41 @@ const projectDetails = [
     name: 'developer conferences',
     // featured: ['CANOPY', 'Back End Dev', '2022'],
     description:
-      `The website for the world's leading developer event is designed using modern CSS techniques like CSS Grid, Flexbox, and pseudo-selectors.`,
+      `The website for the world's leading developer event is designed using modern CSS techniques like CSS Grid, Flexbox, and pseudo-selectors. Made JavaScript ES6 , HTML5 and CSS3.`,
     image: './assest/img/js-project/we-are-dev.png',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'GitHub'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'GitHub', 'Webpack'],
     live: 'https://naji-97.github.io/CapstonePrj1-ConferencePage/index.html',
     source: 'https://github.com/naji-97/CapstonePrj1-ConferencePage',
   },
   {
-    name: 'Multi-Post Stories',
-    featured: ['CANOPY', 'Back End Dev', '2022'],
+    name: `Space Traveler's Hub`,
+    // featured: ['CANOPY', 'Back End Dev', '2022'],
     description:
-      'Loreme ipsum dolor sit, amet consectetur adipisicing elit. Dolores mollitia, sapiente deleniti voluptas exercitationem dolore, nihil facilis doloremque dicta dignissimos, fugit maxime culpa obcaecati nisi corrupti id sunt vel sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem iure pariatur dolores, voluptate natus modi vel architecto enim accusantium accusamus sed sapiente at laborum quas quo quam? Corporis, ab dolorem!',
-    image: './assest/img/Snapshoot Portfolio (1).png',
-    technologies: ['html', 'css', 'havascript', 'github', 'ruby', 'Bootstrap'],
-    live: 'https://naji-97.github.io/Portfolio-/',
-    source: 'https://github.com/naji-97',
+    `Web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. Using React, Redux & REST APIs`,
+    image: './assest/img/js-project/space-travel.png',
+    technologies: ['React', 'Redux', 'API', 'GitHub', 'Sass', 'Bootstrap', 'Jest'],
+    live: 'https://github.com/naji-97/sec-space-travels-hub',
+    source: 'https://github.com/naji-97/sec-space-travels-hub',
   },
   {
-    name: 'Facebook 360',
-    featured: ['CANOPY', 'Back End Dev', '2022'],
+    name: 'Recipe Food',
+    // featured: ['CANOPY', 'Back End Dev', '2022'],
     description:
-      'Loreme ipsum dolor sit, amet consectetur adipisicing elit. Dolores mollitia, sapiente deleniti voluptas exercitationem dolore, nihil facilis doloremque dicta dignissimos, fugit maxime culpa obcaecati nisi corrupti id sunt vel sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem iure pariatur dolores, voluptate natus modi vel architecto enim accusantium accusamus sed sapiente at laborum quas quo quam? Corporis, ab dolorem!',
-    image: './assest/img/Snapshoot Portfolio (2).png',
-    technologies: ['html', 'css', 'havascript', 'github', 'ruby', 'Bootstrap'],
-    live: 'https://naji-97.github.io/Portfolio-/',
-    source: 'https://github.com/naji-97',
+      'keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe',
+    image: './assest/img/js-project/recipedetail (1).png',
+    technologies: [ 'Ruby', 'Rails', 'github', 'CSS', 'Bootstrap', 'PostgreSQL', 'RSpec', 'Selenium', 'Capybara'],
+    live: 'https://github.com/naji-97/RoR_Group_Project',
+    source: 'https://github.com/naji-97/RoR_Group_Project',
   },
   {
-    name: 'Uber Navigation',
-    featured: ['CANOPY', 'Back End Dev', '2022'],
+    name: 'Airline Reservation Management System',
+    // featured: ['CANOPY', 'Back End Dev', '2022'],
     description:
-      'Loreme ipsum dolor sit, amet consectetur adipisicing elit. Dolores mollitia, sapiente deleniti voluptas exercitationem dolore, nihil facilis doloremque dicta dignissimos, fugit maxime culpa obcaecati nisi corrupti id sunt vel sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem iure pariatur dolores, voluptate natus modi vel architecto enim accusantium accusamus sed sapiente at laborum quas quo quam? Corporis, ab dolorem!',
-    image: './assest/img/Snapshoot Portfolio (3).png',
-    technologies: ['html', 'css', 'havascript', 'github', 'ruby', 'Bootstrap'],
-    live: 'https://naji-97.github.io/Portfolio-/',
-    source: 'https://github.com/naji-97',
+      'For the Front-end, React is used while the Back-end is powered by Ruby on Rails. Postgresql serves as the database. Proper user authorization and authentication are implemented for role-based creation, flight reservations, and cancellations.',
+    image: './assest/img/js-project/filght.png',
+    technologies: ['Ruby', 'Rails', 'github', 'CSS', 'Bootstrap', 'PostgreSQL', 'RSpec', 'Selenium', 'Capybara', 'React', 'Redux', 'API', 'Bootstrap', 'Jest'],
+    live: 'https://github.com/naji-97/final-group-capstone',
+    source: 'https://github.com/naji-97/final-group-capstone',
   },
 ];
 
@@ -65,10 +65,11 @@ const pjName = boxModal.querySelector('.pjname');
 // const lgLists = boxModal.querySelectorAll('.lg-lists li');
 const mainImage = boxModal.querySelector('.main-img img');
 const modalContent = boxModal.querySelector('.modal-content');
-const technologiesList = boxModal.querySelectorAll('#technologies-list li');
+const technologiesList = document.getElementById('technologies-list');
 const liveLink = boxModal.querySelector('#liveLink');
 const sourceLink = boxModal.querySelector('#sourceLink');
 const closeButton = boxModal.querySelector('.close-btn');
+
 
 const blur = document.getElementById('blur');
 
@@ -85,11 +86,20 @@ for (let i = 0; i < projectCard.length; i += 1) {
     sourceLink.href = project.source;
 
     // for (let j = 0; j < lgLists.length; j += 1) {
-    //   // lgLists[j].innerText = project.featured[j];
+    //   lgLists[j].innerText = project.featured[j];
     // }
-    for (let n = 0; n < technologiesList.length; n += 1) {
-      technologiesList[n].innerText = project.technologies[n];
-    }
+    technologiesList.innerHTML = '';
+    // Loop through the project technologies and create <li> elements
+    project.technologies.forEach(tech => {
+      const technologyList = document.createElement('li');
+    technologyList.innerText = tech;
+    technologiesList.appendChild(technologyList);
+  });
+
+  // const outModal = document
+  boxModal.addEventListener('click', () => {
+    boxModal.classList.remove('active');
+  });
 
     closeButton.addEventListener('click', () => {
       blur.classList.toggle('blur');
