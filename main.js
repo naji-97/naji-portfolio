@@ -21,17 +21,17 @@ const projectDetails = [
     name: 'developer conferences',
     // featured: ['CANOPY', 'Back End Dev', '2022'],
     description:
-      `The website for the world's leading developer event is designed using modern CSS techniques like CSS Grid, Flexbox, and pseudo-selectors. Made JavaScript ES6 , HTML5 and CSS3.`,
+      'The website for the world\'s leading developer event is designed using modern CSS techniques like CSS Grid, Flexbox, and pseudo-selectors. Made JavaScript ES6 , HTML5 and CSS3.',
     image: './assest/img/js-project/we-are-dev.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'GitHub', 'Webpack'],
     live: 'https://naji-97.github.io/CapstonePrj1-ConferencePage/index.html',
     source: 'https://github.com/naji-97/CapstonePrj1-ConferencePage',
   },
   {
-    name: `Space Traveler's Hub`,
+    name: 'Space Traveler\'s Hub',
     // featured: ['CANOPY', 'Back End Dev', '2022'],
     description:
-    `Web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. Using React, Redux & REST APIs`,
+    'Web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. Using React, Redux & REST APIs',
     image: './assest/img/js-project/space-travel.png',
     technologies: ['React', 'Redux', 'API', 'GitHub', 'Sass', 'Bootstrap', 'Jest'],
     live: 'https://github.com/naji-97/sec-space-travels-hub',
@@ -43,7 +43,7 @@ const projectDetails = [
     description:
       'keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe',
     image: './assest/img/js-project/recipedetail (1).png',
-    technologies: [ 'Ruby', 'Rails', 'github', 'CSS', 'Bootstrap', 'PostgreSQL', 'RSpec', 'Selenium', 'Capybara'],
+    technologies: ['Ruby', 'Rails', 'github', 'CSS', 'Bootstrap', 'PostgreSQL', 'RSpec', 'Selenium', 'Capybara'],
     live: 'https://github.com/naji-97/RoR_Group_Project',
     source: 'https://github.com/naji-97/RoR_Group_Project',
   },
@@ -70,7 +70,6 @@ const liveLink = boxModal.querySelector('#liveLink');
 const sourceLink = boxModal.querySelector('#sourceLink');
 const closeButton = boxModal.querySelector('.close-btn');
 
-
 const blur = document.getElementById('blur');
 
 for (let i = 0; i < projectCard.length; i += 1) {
@@ -90,16 +89,16 @@ for (let i = 0; i < projectCard.length; i += 1) {
     // }
     technologiesList.innerHTML = '';
     // Loop through the project technologies and create <li> elements
-    project.technologies.forEach(tech => {
+    project.technologies.forEach((tech) => {
       const technologyList = document.createElement('li');
-    technologyList.innerText = tech;
-    technologiesList.appendChild(technologyList);
-  });
+      technologyList.innerText = tech;
+      technologiesList.appendChild(technologyList);
+    });
 
-  // const outModal = document
-  boxModal.addEventListener('click', () => {
-    boxModal.classList.remove('active');
-  });
+    // const outModal = document
+    boxModal.addEventListener('click', () => {
+      boxModal.classList.remove('active');
+    });
 
     closeButton.addEventListener('click', () => {
       blur.classList.toggle('blur');
