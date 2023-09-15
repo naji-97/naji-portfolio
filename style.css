@@ -60,10 +60,14 @@ label {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #6070ff;
+  background-color: rgb(0 59 147);
   padding: 10px 40px;
-  opacity: 90%;
+  opacity: 0.95;
   z-index: 10;
+}
+
+.navbar img {
+  display: none;
 }
 
 .mobile-menu ul {
@@ -98,9 +102,9 @@ label {
   padding-top: 10px;
 }
 
-.blur {
+/* .blur {
   filter: blur(8px);
-}
+} */
 
 .non-display {
   display: none;
@@ -110,11 +114,31 @@ label {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 44px;
   display: flex;
   align-items: center;
   color: #ffff;
+  border-bottom: 1px solid;
+}
+
+.see-project a,
+.content .see-resume a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 10px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background: #fff;
+  border: 1px solid #396df2;
+  border-radius: 16px;
+  transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
+}
+
+.mobile-menu a:hover {
+  background-color: #000;
 }
 
 .xmark {
@@ -159,6 +183,28 @@ header {
   transform: rotate(90deg);
 }
 
+.lg-lists span {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+  padding: auto;
+  margin: 0 10px;
+}
+
+.project ul li span {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+  padding: auto;
+  margin: 0 10px;
+}
+
 .main-section {
   background-image: url(./assest/img/header-shapes\ mobile.jpg);
   background-position: top;
@@ -174,6 +220,18 @@ header {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+}
+
+.mycompetence li img {
+  margin-right: 10px;
+}
+
+.main-section .title img {
+  border-radius: 50%;
+}
+
+.main-section .title span {
+  color: #6070ff;
 }
 
 .main-section p {
@@ -228,6 +286,7 @@ ul.links {
   display: grid;
   grid-template-columns: 80%;
   grid-template-rows: 1fr;
+  align-items: center;
 }
 
 .project h2 {
@@ -262,28 +321,6 @@ ul.links {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-}
-
-.lg-lists span {
-  height: 10px;
-  width: 10px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  align-items: center;
-  padding: auto;
-  margin: 0 10px;
-}
-
-.project ul li span {
-  height: 10px;
-  width: 10px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  align-items: center;
-  padding: auto;
-  margin: 0 10px;
 }
 
 .project .decription {
@@ -321,21 +358,6 @@ ul.links {
 }
 
 /* Animation */
-.see-project a,
-.content .see-resume a {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  padding: 10px;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  background: #fff;
-  border: 1px solid #396df2;
-  border-radius: 16px;
-  transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
-}
-
 .see-project a:hover,
 .see-resume a:hover {
   background: #6070ff;
@@ -400,13 +422,13 @@ div.border-bootom {
   padding: 20px 40px;
 }
 
-.languages ul.mycompetence {
-  flex-direction: column;
+.languages ul.mycompetence,
+ul.myframwork,
+ul.myskils {
+  /* flex-direction: column; */
   align-items: flex-start;
-}
 
-.mycompetence li img {
-  margin-right: 10px;
+  /* display: none; */
 }
 
 /* Contact me section */
@@ -424,7 +446,7 @@ div.border-bootom {
 }
 
 .contac-card {
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 .contact-me h2 {
@@ -548,11 +570,12 @@ div.border-bootom {
   left: 0;
   right: 0;
   background: #fff;
+  justify-content: center;
 }
 
 /* Start Modal for Mobile */
 
-.modal {
+/* .modal {
   display: none;
   padding: 15px;
   z-index: 100;
@@ -576,7 +599,7 @@ div.border-bootom {
   padding: 15px;
   margin: 16px;
   border-radius: 20px;
-}
+} */
 
 .title-icon .pjname {
   font-family: 'Poppins', sans-serif;
@@ -675,15 +698,9 @@ ul.technologies {
   margin: 0 10px;
 }
 
-.close-btn {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  background: none;
-  line-height: 24px;
-  color: #67798e;
-}
+/* .close-btn {
+
+} */
 
 /* Start Validation Form */
 form .message {
@@ -700,6 +717,69 @@ form .message {
   display: none;
 }
 
+/* ##############  */
+
+/* Styles for the overlay background */
+.modal {
+  display: none;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(193, 199, 208, 0.8);
+  overflow: auto; /* Enable scrolling for modal content */
+}
+
+/* Display the modal when it's active */
+.modal.active {
+  display: block;
+}
+
+/* Styles for the modal content */
+.modal-box {
+  background: #fff;
+  padding: 15px;
+  margin: 16px auto; /* Center the modal vertically */
+  max-width: 1000px; /* Set a maximum width for the modal */
+  border-radius: 20px;
+  position: relative;
+}
+
+/* Ensure modal content doesn't exceed the viewport height */
+.modal-box.overflow-y-auto {
+  max-height: calc(100vh - 32px); /* Subtract padding and margins */
+  overflow-y: auto; /* Enable vertical scrolling for modal content */
+}
+
+/* Style for the close button (customize as needed) */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #67798e;
+}
+
+.myproject-title {
+  margin: 0 20px;
+  margin-bottom: -20px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 30px;
+}
+
+/* ############################## */
+
 @media screen and (min-width: 768px) {
   header {
     background: white;
@@ -707,6 +787,58 @@ form .message {
 
   .navbar {
     padding: 10px 60px;
+    justify-content: space-between;
+  }
+
+  .navbar ul li a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0%;
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+  }
+
+  .navbar ul li a {
+    position: relative;
+    transition: all 1.5s;
+    padding: 5px;
+  }
+
+  .content .see-resume a {
+    border-radius: 10px;
+  }
+
+  .modal-btn-group .see-project a {
+    width: max-content;
+    border-radius: 10px;
+  }
+
+  .navbar ul li a:hover {
+    color: #fff;
+    z-index: 1;
+    border-radius: 10px;
+  }
+
+  .navbar ul li a:hover::after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+    width: 100%;
+  }
+
+  /* End Navbar Animation */
+  .navbar img {
+    border-radius: 50%;
+    display: inline;
   }
 
   .menu {
@@ -722,10 +854,12 @@ form .message {
   }
 
   .main-section {
+    margin-top: 60px;
     display: grid;
     padding: 100px 130px;
     background-position: unset;
-    margin: 0;
+
+    /* margin: 0; */
     margin-bottom: 20px;
     border-bottom-left-radius: 50px;
     background-image: url(./assest/img/desktop-header-bg.png);
@@ -795,24 +929,20 @@ form .message {
     color: #000;
   }
 
-  .languages div:first-child {
-    padding-right: 20px;
-  }
-
   .mycompetence li {
     margin: 10px;
     align-items: center;
-    max-width: 100px;
-    height: 100px;
+    max-width: 90px;
     background: #f7f7f9;
     border-radius: 8px;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
+    font-size: 12px;
+    line-height: 12px;
+
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
     color: #253858;
   }
 
@@ -825,6 +955,7 @@ form .message {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   .languages:first-child {
@@ -846,8 +977,13 @@ form .message {
     color: #172b4d;
   }
 
-  .content .see-resume a {
-    border-radius: 10px;
+  .languages ul.mycompetence,
+  ul.myframwork,
+  ul.myskils {
+    /* flex-direction: column; */
+    align-items: flex-start;
+
+    /* display: none; */
   }
 
   .content .links {
@@ -886,9 +1022,9 @@ form .message {
     display: none;
   }
 
-  .blur {
+  /* .blur {
     filter: blur(6);
-  }
+  } */
 
   /* Start Modal */
 
@@ -950,8 +1086,22 @@ form .message {
     padding-top: 10px;
   }
 
-  .modal-btn-group .see-project a {
-    width: max-content;
-    border-radius: 10px;
+  /* Keyframes */
+  @-webkit-keyframes fill {
+    0% {
+      width: 0%;
+      height: 1px;
+    }
+
+    50% {
+      width: 100%;
+      height: 1px;
+    }
+
+    100% {
+      width: 100%;
+      height: 100%;
+      background: #333;
+    }
   }
 }
