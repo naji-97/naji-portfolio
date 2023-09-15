@@ -15,7 +15,7 @@
 <body class="mobile">
     <header>
         <div class="navbar flex">
-            <a class="logo" href="#"> My logo</a>
+             <a class="" href="#"><img src="./assest/img/profile.png" alt="my profile img" width="100px" srcset=""></a>
             <ul class="links">
                 <li><a href="#projects">Protfolio</a> </li>
                 <li onclick=""><a href="#about">About</a> </li>
@@ -28,7 +28,6 @@
                 <i onclick="mobileMenu()" class="fa-solid fa-xmark"></i>
             </div>
             <ul class="column-direction">
-
                 <li onclick="mobileMenu()"><a href="#projects">Protfolio</a> </li>
                 <li onclick="mobileMenu()"><a href="#about">About</a> </li>
                 <li onclick="mobileMenu()"><a href="#contact">Contact</a></li>
@@ -37,17 +36,19 @@
     </header>
     <section class="main-section" id="blur">
         <div id="">
-            <h1>I’m Naji <br>
-                Glad to see you!</h1>
+            <h1 class="title">
+                <!-- <img src="./assest/img/profile.png" alt="my profile img" width="150px" srcset=""> -->
+                Hey there. I’m Naji Ali <br>
+                <span> A Full-stack web developer </span>
+            </h1>
             <p class="description">
-                I’m a software developer! I can help you build a product , feature or website Look through some of my
-                work
-                and
-                experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                With a background in developing efficient software applications in a global market. More thsn 1300+
+                hours of experience, including mentoring 10+ junior developers to achieve concrete goals on a strict
+                deadline. Strong skills include React, Redux, JavaScript, Ruby on Rails, Figma, and Animation Libraries!
             </p>
 
             <div>
-                <button>LET'S CONNECT</button>
+                <button type="button">LET'S CONNECT</button>
                 <ul class="links">
                     <li><a title="linkdin" href="https://www.linkedin.com/in/naji-ali-55b5421b3/"><i
                                 class="fa-brands fa-linkedin fa-2x"></i></a></li>
@@ -66,104 +67,78 @@
 
 
 
-    <section class="projects " id="projects">
+    <section class="projects " >
 
-
+        <h1 class="myproject-title" id="projects">My Pojects</h1>
         <div class="project grid">
-            <img class="project-img grid-1" src="./assest/img/Snapshoot Portfolio.png" alt="Tonic project image">
+            <img class="project-img grid-1" src="./assest/img/js-project/we-are-dev.png" alt="Tonic project image">
             <div class="prject-content">
-                <h2>Tonic</h2>
-                <ul class="toni flex">
-                    <h5>CANOPY</h5>
-                    <li> <span></span> Back End Dev</li>
-                    <li> <span></span> 2022</li>
-                </ul>
-                <p class="decription">A daily selection of privately personalized reads; no accounts or sign-ups
-                    required.
+                <h2>We Are Developer</h2>
+                <p class="decription">The website for the world's leading developer event is designed using modern CSS techniques like CSS Grid, Flexbox, and pseudo-selectors.
                 </p>
                 <ul class="language flex">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
                 </ul>
 
                 <div class="see-project">
-                    <button id="project-btn"><a href="#">See project</a></button>
+                    <button type="button" id="project-btn"><a href="#">See project</a></button>
                 </div>
             </div>
         </div>
 
         <div class="project grid">
-            <img class="project-img grid-2" src="./assest/img/Snapshoot Portfolio (1).png"
+            <img class="project-img grid-2" src="./assest/img/js-project/space-travel.png"
                 alt="Multi-Post Stories project image">
             <div class="prject-content">
-                <h2>Multi-Post
-                    Stories</h2>
-                <ul class="toni flex">
-                    <h5>CANOPY</h5>
-                    <li> <span></span> Back End Dev</li>
-                    <li> <span></span> 2022</li>
-                </ul>
-                <p class="decription">A daily selection of privately personalized reads; no accounts or sign-ups
-                    required.
+                <h2>Space Traveler's Hub</h2>
+                <p class="decription">Web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. Using React, Redux & REST APIs
                 </p>
                 <ul class="language flex">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javaScript</li>
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>API</li>
                 </ul>
                 <div class="see-project">
-                    <button id="project-btn"><a href="#">See project</a></button>
+                    <button type="button" id="project-btn"><a href="#">See project</a></button>
                 </div>
             </div>
         </div>
 
 
         <div class="project grid">
-            <img class="project-img grid-1" src="./assest/img/Snapshoot Portfolio (2).png" alt="Tonic project image 2">
+            <img class="project-img grid-1" src="./assest/img/js-project/recipedetail (1).png" alt="Tonic project image 2">
             <div class="prject-content">
-                <h2>Tonic</h2>
-                <ul class="toni flex">
-                    <h5>CANOPY</h5>
-                    <li> <span></span> Back End Dev</li>
-                    <li> <span></span> 2022</li>
-                </ul>
-                <p class="decription">A daily selection of privately personalized reads; no accounts or sign-ups
-                    required.
+                <h2>Recipe Food</h2>
+                <p class="decription">keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe
                 </p>
                 <ul class="language flex">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javaScript</li>
+                    <li>Ruby</li>
+                    <li>Rails</li>
+                    <li>Devise</li>
                 </ul>
                 <div class="see-project">
-                    <button id="project-btn"><a href="#">See project</a></button>
+                    <button type="button" id="project-btn"><a href="#">See project</a></button>
                 </div>
             </div>
         </div>
 
         <div class="project grid">
-            <img class="project-img grid-2" src="./assest/img/Snapshoot Portfolio (3).png"
+            <img class="project-img grid-2" src="./assest/img/js-project/filght.png"
                 alt="Multi-Post Stories project image">
             <div class="prject-content">
-                <h2>Tonic</h2>
-                <ul class="toni flex">
-                    <li>
-                        <h5>CANOPY</h5>
-                    </li>
-                    <li> <span></span> Back End Dev</li>
-                    <li> <span></span> 2022</li>
-                </ul>
-                <p class="decription">A daily selection of privately personalized reads; no accounts or sign-ups
-                    required.
+                <h2>Airline Reservation Management System</h2>
+                <p class="decription">For the Front-end, React is used while the Back-end is powered by Ruby on Rails. Postgresql serves as the database. Proper user authorization and authentication are implemented for role-based creation, flight reservations, and cancellations
                 </p>
                 <ul class="language flex">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javaScript</li>
+                    <li>Ruby</li>
+                    <li>Rails</li>
+                    <li>React</li>
+                    <li>Redux</li>
                 </ul>
                 <div class="see-project">
-                    <button id="project-btn"><a href="#">See project</a></button>
+                    <button type="button" id="project-btn"><a href="#">See project</a></button>
                 </div>
             </div>
         </div>
@@ -193,27 +168,40 @@
                                 alt="my medium account" srcset=""></a></li>
                 </ul>
                 <div class="see-resume">
-                    <button><a href="#">Get My Resume</a></button>
+                    <button type="button"><a href="#">Get My Resume</a></button>
                 </div>
             </div>
             <div class="languages ">
-                <div class="flex">
+                <div class="flex border-bootom">
                     <p>Languages</p>
-                    <i class="fa-solid fa-angle-down "></i>
                 </div>
                 <ul class="mycompetence ">
-                    <li class=""><img src="./assest/img/Ellipse 1.png" alt="JAVASCRIPT"><span> JavaScript </span> </li>
-                    <li class=""> <img src="./assest/img/Ellipse 1 (1).png" alt="HTML"><span> HTML </span> </li>
-                    <li class=""> <img src="./assest/img/Ellipse 1 (2).png" alt="CSS"><span> CSS </span> </li>
+                    <li class=""> <span> HTML </span> </li>
+                    <li class=""> <span> CSS </span> </li>
+                    <li class=""><span> JavaScript </span> </li>
+                    <li class=""><span> Ruby </span> </li>
                 </ul>
                 <div class="flex border-bootom">
                     <p>Framwrks</p>
-                    <i class="fa-solid fa-angle-right "></i>
                 </div>
+                <ul class="mycompetence ">
+                    <li class=""><span> Ruby on Rails </span> </li>
+                    <li class=""> <span> React </span> </li>
+                    <li class=""> <span> RSpec </span> </li>
+                    <li class=""> <span> Capybara </span> </li>
+                    <li class=""> <span> Bootstrap </span> </li>
+                    <li class=""> <span> Sass </span> </li>
+                </ul>
+
                 <div class="flex border-bootom">
                     <p>Skills</p>
-                    <i class="fa-solid fa-angle-right "></i>
                 </div>
+                <ul class="mycompetence ">
+                    <li class=""><span> PostgreSQL </span> </li>
+                    <li class=""> <span> Github </span> </li>
+                    <li class=""> <span> Git </span> </li>
+                    <li class=""> <span> Codepen </span> </li>
+                </ul>
             </div>
         </div>
     </section>
@@ -230,7 +218,6 @@
                 </p>
             </div>
             <div class="contact-me-form">
-                <!-- <img src="./assest/img/contact\ form\ background\ shapes.png" alt="" srcset=""> -->
                 <form class="form" action="https://formspree.io/f/mvoyejav" method="post">
                     <div class="username-input">
                         <label for="username">Username</label>
@@ -246,7 +233,7 @@
                     <br />
                     <div class="text-area">
                         <label for="message">Message</label>
-                        <textarea name="message" type="text" class="input-textarea" cols="30" maxlength="500"
+                        <textarea name="message" type="text" class="input-textarea" cols="10" maxlength="500"
                             placeholder="enter your message here" required></textarea>
                     </div>
                     <button type="submit" value="Get In Touch" class="submit-button">
@@ -267,13 +254,6 @@
                 <h3 class="pjname"></h3>
                 <button type="button" class="close-btn"><i class="fa-solid fa-x"></i></button>
             </div>
-            <ul class="lg-lists toni flex" id="featured ">
-                <li></li>
-                <span></span>
-                <li> </li>
-                <span></span>
-                <li> </li>
-            </ul>
 
             <div class="img-group">
                 <div class="main-img flex">
@@ -286,12 +266,6 @@
                 <p class="modal-content "></p>
                 <div class="modal-btn-group ">
                     <ul class="technologies flex" id="technologies-list">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
                     </ul>
                     <div class="see-project flex">
                         <a href="https://naji-97.github.io/Portfolio-/" id="liveLink" class="modal-btn flex"><span>See
@@ -300,10 +274,8 @@
                                 source</span><img src="./assest/img/Vector.png" alt="" /></a>
                     </div>
                 </div>
-
-
-
             </div>
+        </div>
     </section>
     <!-- End Modal Box --> <!-- change modal box -->
 
