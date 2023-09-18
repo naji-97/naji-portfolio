@@ -58,14 +58,14 @@ const projectDetails = [
     source: 'https://github.com/naji-97/Budget-app',
   },
   {
-    name: 'Airline Reservation Management System',
+    name: 'Movies.com',
     // featured: ['CANOPY', 'Back End Dev', '2022'],
     description:
-      'For the Front-end, React is used while the Back-end is powered by Ruby on Rails. Postgresql serves as the database. Proper user authorization and authentication are implemented for role-based creation, flight reservations, and cancellations.',
-    image: './assest/img/js-project/filght.png',
-    technologies: ['Ruby', 'Rails', 'github', 'CSS', 'Bootstrap', 'PostgreSQL', 'RSpec', 'Selenium', 'Capybara', 'React', 'Redux', 'API', 'Bootstrap', 'Jest'],
-    live: 'https://github.com/naji-97/final-group-capstone',
-    source: 'https://github.com/naji-97/final-group-capstone',
+      'MOVIES.COM is the 2nd Capstone Project in the Microverse curriculum.Our project is a webpage that give us sugestion about movies and also we can comment and like movies.',
+    image: './assest/img/js-project/movies.png',
+    technologies: ['HTML', 'JavaScript', 'CSS', 'API', 'SASS', 'JS6'],
+    live: 'https://tamaradimov.github.io/GROUP-CAPSTONE-PROJECT/dist/',
+    source: 'https://github.com/naji-97/GROUP-CAPSTONE-PROJECT',
   },
 ];
 
