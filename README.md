@@ -52,23 +52,16 @@ This Project was built with the following technologies
 ### Key Features <a name="key-features"></a>
 
 - Navbar
-- Headline Section
+- Head Section
 - Portfolio Section
 - About Section
 - Contact Section
-- Footer Section
+
 
 # <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[Online Version Link](https://naji-97.github.io/Portfolio-/)
-
-## Project presentation
-
-[Project presentation link](https://www.loom.com/share/20b361cef9394e04bc42dc5fb7797712/)
-
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link]((https://naji-97.github.io/Portfolio-/)
+[Live Demo Link](https://naji-97.github.io/Portfolio-/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
