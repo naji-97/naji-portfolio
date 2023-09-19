@@ -17,6 +17,7 @@ menu.addEventListener('click', mobileMenu);
 
 //    Start Modal Box
 const projectDetails = [
+
   {
     name: 'developer conferences',
     // featured: ['CANOPY', 'Back End Dev', '2022'],
@@ -28,34 +29,43 @@ const projectDetails = [
     source: 'https://github.com/naji-97/CapstonePrj1-ConferencePage',
   },
   {
+    name: 'Holiday Finder',
+    description:
+      'The Holiday Finder is a single-page website where users can get information about countries, search for specific countries, and find country holidays from previous years.',
+    image: './assest/img/js-project/holiday-finder.png',
+    technologies: ['React', 'Redux', 'API', 'GitHub', 'Sass'],
+    live: 'https://holiday-finder.onrender.com',
+    source: 'https://github.com/naji-97/holiday-finder',
+  },
+  {
     name: 'Space Traveler\'s Hub',
     // featured: ['CANOPY', 'Back End Dev', '2022'],
     description:
     'Web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. Using React, Redux & REST APIs',
     image: './assest/img/js-project/space-travel.png',
     technologies: ['React', 'Redux', 'API', 'GitHub', 'Sass', 'Bootstrap', 'Jest'],
-    live: 'https://github.com/naji-97/sec-space-travels-hub',
+    live: 'https://spacehub.onrender.com',
     source: 'https://github.com/naji-97/sec-space-travels-hub',
   },
   {
-    name: 'Recipe Food',
+    name: 'Money-Tracker',
     // featured: ['CANOPY', 'Back End Dev', '2022'],
     description:
-      'keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe',
-    image: './assest/img/js-project/recipedetail (1).png',
+      'Money-Tracker is a mobile web application where you can manage your budget, you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    image: './assest/img/js-project/mony-tracker.png',
     technologies: ['Ruby', 'Rails', 'github', 'CSS', 'Bootstrap', 'PostgreSQL', 'RSpec', 'Selenium', 'Capybara'],
-    live: 'https://github.com/naji-97/RoR_Group_Project',
-    source: 'https://github.com/naji-97/RoR_Group_Project',
+    live: 'https://money-tracker-rails-6abdef4b7828.herokuapp.com',
+    source: 'https://github.com/naji-97/Budget-app',
   },
   {
-    name: 'Airline Reservation Management System',
+    name: 'Movies.com',
     // featured: ['CANOPY', 'Back End Dev', '2022'],
     description:
-      'For the Front-end, React is used while the Back-end is powered by Ruby on Rails. Postgresql serves as the database. Proper user authorization and authentication are implemented for role-based creation, flight reservations, and cancellations.',
-    image: './assest/img/js-project/filght.png',
-    technologies: ['Ruby', 'Rails', 'github', 'CSS', 'Bootstrap', 'PostgreSQL', 'RSpec', 'Selenium', 'Capybara', 'React', 'Redux', 'API', 'Bootstrap', 'Jest'],
-    live: 'https://github.com/naji-97/final-group-capstone',
-    source: 'https://github.com/naji-97/final-group-capstone',
+      'MOVIES.COM is the 2nd Capstone Project in the Microverse curriculum.Our project is a webpage that give us sugestion about movies and also we can comment and like movies.',
+    image: './assest/img/js-project/movies.png',
+    technologies: ['HTML', 'JavaScript', 'CSS', 'API', 'SASS', 'JS6'],
+    live: 'https://tamaradimov.github.io/GROUP-CAPSTONE-PROJECT/dist/',
+    source: 'https://github.com/naji-97/GROUP-CAPSTONE-PROJECT',
   },
 ];
 
@@ -82,7 +92,9 @@ for (let i = 0; i < projectCard.length; i += 1) {
     mainImage.src = project.image;
     modalContent.innerText = project.description;
     liveLink.href = project.live;
+    liveLink.target = '_blank';
     sourceLink.href = project.source;
+    sourceLink.target = '_blank';
 
     // for (let j = 0; j < lgLists.length; j += 1) {
     //   lgLists[j].innerText = project.featured[j];
