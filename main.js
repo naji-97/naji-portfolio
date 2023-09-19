@@ -92,7 +92,9 @@ for (let i = 0; i < projectCard.length; i += 1) {
     mainImage.src = project.image;
     modalContent.innerText = project.description;
     liveLink.href = project.live;
+    liveLink.target = '_blank';
     sourceLink.href = project.source;
+    sourceLink.target = '_blank';
 
     // for (let j = 0; j < lgLists.length; j += 1) {
     //   lgLists[j].innerText = project.featured[j];
